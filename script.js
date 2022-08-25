@@ -14,3 +14,13 @@ console.log("Sales Tax      ",salesTax);
 console.log("                =========");
 console.log("Total          ",total);
 
+document.write(`
+    <p style="text-align:center">Welcome to Best Buy!</p>
+    <p> </p>
+    <p>${productQty}    ${productName}</p>
+    <p>--------------</p>
+    <p>Subtotal         $${subTotal}</p>
+    <p>Subtotal         $${salesTax}</p>
+    <p>==============</p>
+    <p>Total          $${total}</p>
+`);
